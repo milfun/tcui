@@ -1,0 +1,3 @@
+<button class="btn" type="primary" loading="{{loading}}" disabled="{{disabled}}" bindtap="onClick">
+    按钮文本s sadasd
+</button>

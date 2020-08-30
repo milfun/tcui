@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",                          
+    "module": "commonjs",        
+    "esModuleInterop": true,              
+    "strict": true,                 
+    "declaration": true, // 生成声明文件，开启后会自动生成声明文件    
+    "noImplicitReturns": true, //每个分支都会有返回值
+    "outDir": "dist", // 指定输出目录
+    "baseUrl": ".", // 解析非相对模块的基地址，默认是当前目录
+    "types": ["miniprogram-api-typings"],
+    "paths": {
+      "definitions/*": ["./packages/definitions/*"],
+      "packages/*": ["./packages/*"]
+    },
+    "skipLibCheck": true
+  },
+  "include": ["packages/**/*"]
+}

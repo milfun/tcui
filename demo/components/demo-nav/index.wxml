@@ -1,7 +1,9 @@
 <view class="demo-nav">
     <view class="demo-nav-title">{{ group.groupName }}</view>
     <view class="demo-nav-group">
-        <view class="demo-nav-item" wx:for="{{ group.list }}" wx:key="item" data-url="/pages{{ item.path }}/index" bind:tap="onClick">
+
+        <!-- 本地开发 改成 dist，线上部署 改成 pages -->
+        <view class="demo-nav-item" wx:for="{{ group.list }}" wx:key="item" data-url="/dist{{ item.path }}/index" bind:tap="onClick">
             {{ item.title }}
         </view>
     </view>
