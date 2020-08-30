@@ -1,0 +1,9 @@
+{
+  "name": "tcui",
+  "version": "1.0.0",
+  "description": "轻量、可靠的小程序 UI 组件库",
+  "main": "index.js",
+  "repository": "https://github.com/milfun/tcui.git",
+  "author": "MilFun",
+  "license": "MIT"
+}
