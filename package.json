@@ -5,5 +5,13 @@
   "main": "index.js",
   "repository": "https://github.com/milfun/tcui.git",
   "author": "MilFun",
-  "license": "MIT"
+  "license": "MIT",
+
+  "scripts": {
+    "upload": "node build/upload.js"
+  },
+
+  "dependencies": {
+    "miniprogram-ci": "^1.0.76"
+  }
 }

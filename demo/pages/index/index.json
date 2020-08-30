@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "demo-nav": "../../components/demo-nav/index"
+  }
+}

@@ -1,0 +1,17 @@
+<view class="demo-index">
+    <view class="demo-index-title">
+        <image mode="aspectFill"  class="demo-index-image" src="http://cdn.wzdx.top/tcui/logo.png"/>
+        <view class="demo-index-text">Tcui Weapp</view>
+          
+    </view>
+
+    <view class="demo-index-desc">
+        轻量、可靠的小程序 UI 组件库
+    </view>
+    
+    <view wx:for="{{ list }}" wx:for-item="item" wx:key="index">
+        <demo-nav group="{{ item }}" />
+    </view>
+      
+</view>
+  

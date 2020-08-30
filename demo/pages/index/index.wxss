@@ -1,0 +1,46 @@
+.demo-index{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    padding: 46px 20px 20px;
+    background: #fff;
+}
+.demo-index-title,
+.demo-index-desc {
+  padding-left: 16px;
+  font-weight: normal;
+  line-height: 1;
+  user-select: none;
+}
+
+.demo-index-title{
+    margin: 0 0 16px;
+    font-size: 32px;
+}
+
+
+.demo-index-image,
+.demo-index-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.demo-index-image {
+  width: 32px;
+  height: 32px;
+}
+
+.demo-index-text {
+  margin-left: 16px;
+  font-weight: 500;
+}
+
+.demo-index-title {
+  font-size: 24px;
+}
+
+.demo-index-desc {
+  margin: 0 0 40px;
+  color: rgba(69, 90, 100, 0.6);
+  font-size: 14px;
+}
